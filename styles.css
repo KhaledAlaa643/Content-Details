@@ -46,7 +46,9 @@ header {
     background-color: white;
     overflow: hidden;
 }
-
+.product-preview{
+    padding: 10px;
+}
 .product-image {
     display: flex;
     flex-direction: row-reverse;
