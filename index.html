@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Striped Zip Through Jumpsuit - E-Commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="back-button">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+            <div class="share-button">
+                <i class="fas fa-share-alt"></i>
+            </div>
+        </header>
+        
+        <div class="product-container">
+            <div class="product-image">
+                <img src="./images/img.jpg" alt="Striped Zip Through Jumpsuit" id="main-image">
+                <div class="product-preview">
+                    <div class="thumbnail-container">
+                        <img src="./images/img.jpg" alt="Thumbnail 1" class="thumbnail active" onclick="changeImage('./images/img.jpg')">
+                        <img src="./images/img2.jpg" alt="Thumbnail 2" class="thumbnail" onclick="changeImage('./images/img2.jpg')">
+                        <img src="./images/img3.jpg" alt="Thumbnail 3" class="thumbnail" onclick="changeImage('./images/img3.jpg')">
+                        <img src="./images/img4.jpg" alt="Thumbnail 4" class="thumbnail" onclick="changeImage('./images/img4.jpg')">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-details">
+                <div class="product-rating">
+                    <span class="rating">★ 4.4</span>
+                    <span class="reviews">(24 Reviews)</span>
+                </div>
+                
+                <h1 class="product-title">Striped Zip Through Jumpsuit with Pockets and Belt</h1>
+                
+                <div class="size-selection">
+                    <div class="size-label">Size</div>
+                    <div class="size-options">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn active">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                </div>
+                
+                <div class="product-details-section">
+                    <h3>Product Details</h3>
+                    <p>Designed with the fashionably-minded woman in mind, this jumpsuit. The multiple pockets and functionality come only second to the belt intended to accent a flattering silhouette. Made from breathable fabric, jumpsuit is highly comforting and ideal for a casual occasion.</p>
+                </div>
+                
+                <div class="product-specs">
+                    <div class="spec-section">
+                        <h3>Material</h3>
+                        <p><strong>Material Composition:</strong> 40% Viscose, 30% Cotton, 30% Polyester</p>
+                    </div>
+                    
+                    <div class="spec-section">
+                        <h3>Warranty & Care</h3>
+                        <p><strong>Care Instructions:</strong> Machine Wash</p>
+                    </div>
+                    
+                    <div class="spec-section">
+                        <h3>General Specifications</h3>
+                        <div class="specs-grid">
+                            <div class="spec-item">
+                                <span class="spec-label">Nature's Comfort</span>
+                                <span class="spec-value">Better Cotton - Responsibly Sourced Cotton</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Sleeve Length</span>
+                                <span class="spec-value">Short Sleeves</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Clothing</span>
+                                <span class="spec-value">Jumpsuit</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Length</span>
+                                <span class="spec-value">Maxi</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Design</span>
+                                <span class="spec-value">Striped</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Occasion</span>
+                                <span class="spec-value">Casual</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Pattern</span>
+                                <span class="spec-value">Jumpsuit (Belted)</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Fabric Feature</span>
+                                <span class="spec-value">BCI Cotton- Responsibly Sourced Cotton</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="action-buttons">
+                    <button id="wishlist-btn"><i class="far fa-heart"></i></button>
+                    <button id="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
