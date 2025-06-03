@@ -100,11 +100,11 @@ header {
 
 .size-label {
     font-weight: bold;
-    margin-bottom: 10px;
 }
 
 .size-options {
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 
